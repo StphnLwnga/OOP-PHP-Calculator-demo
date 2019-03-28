@@ -1,8 +1,5 @@
-<?php
-	include('inc/prac-header.php');
-	
-	include('inc/CalcClass.php');
-?>
+<?php	include('inc/prac-header.php');	?>
+
 <div class="offset-4 col-4 justify-content-center">
 	<br> <br> <br><br>
 	<h4 class="text-center text-success">
@@ -17,6 +14,5 @@
 			echo $evaluate->calcMethod();
 		?>
 	</h4>
-<?php
-	include('inc/prac-footer.php');
-?>
+	
+<?php	include('inc/prac-footer.php');	?>
