@@ -24,7 +24,7 @@
 					$answer = $this->num1 * $this->num2;
 					break;
 				case 'div':
-					$answer = $this->num1 / $this->num2;
+					$answer = ($this->num1) / ($this->num2);
 				default:
 					$answer = "Error!";
 					break;
