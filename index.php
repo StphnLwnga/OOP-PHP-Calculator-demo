@@ -1,6 +1,5 @@
-<?php
-	include('inc/prac-header.php');
-?>
+<?php	include('inc/prac-header.php');	?>
+
 <div class="offset-4 col-4 justify-content-center">
 	<br> <br> <br><br>
 	<form action="calc.php" method="POST">
@@ -26,6 +25,5 @@
 		<button type="submit" class="btn-sm btn-primary btn-block">Calculate</button>
 	</form>
 </div>
-<?php
-	include('inc/prac-footer.php');
-?>
+
+<?php	include('inc/prac-footer.php');	?>
